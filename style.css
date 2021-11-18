@@ -1,0 +1,117 @@
+body{
+    border:5px solid rgba(0,0,0,0.5);
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+
+.playlist-header{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top:40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.playing-music-borde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.each-music{
+    display: flex;
+    justify-items: center;
+    justify-content: left;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:25px;
+}
+
+.album-cover-main{
+    width: 175px;
+    height: 175px;
+    border:5px solid black;
+    border-radius: 50px;
+}
+
+.album-cover{
+    width: 80px;
+    height: 80px;
+    border:5px solid black;
+    border-radius: 25px;
+}
+
+.album-text{
+    margin-left: 25px;
+}
+
+
+.user-interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.user-interface span{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    
+}
+   
+.big-icon{
+    width: 200px;
+    height: 70px;
+    border:5px solid black;
+    border-radius: 80px;
+    border-bottom-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(1em / 0.7);
+    height: calc(1em / 0.7);
+    border:5px solid black;
+    margin-left: 25px;
+    border-radius: 50% ;
+    border-bottom-width: 10px;
+}
+
+
+.album-title-bold{
+    margin:0;
+    font-size: 20px;
+}
+
+.album-title-artist{
+    margin: 0;
+    font-size: 20x;
+    font-weight: 400;
+    color:rgba(0,0,0,0.5);
+}
+
+.album-artist{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(0,0,0,0.5);
+}
